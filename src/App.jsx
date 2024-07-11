@@ -3,12 +3,28 @@ import './styles/App.css';
 function App() {
 	return (
 		<>
-			<header>
-				<h1>Dean Jeffery</h1>
-				<h2>Frontend Developer</h2>
-				<p>Newcastle Upon Tyne, UK</p>
-			</header>
-			<div className='column'>
+			<div className='column column-left'>
+				<header>
+					<h1>Dean Jeffery</h1>
+					<h2>Frontend Developer</h2>
+					<p>Newcastle Upon Tyne, UK</p>
+					<p>itsdeanrj@gmail.com</p>
+					<p>07984377720</p>
+				</header>
+				<div>
+					<p>
+						A web developer with over 3 years of frontend development experience and a passion for building more accessible and responsive websites.
+						Adept at working on both independent and collaborative projects and possessing a deep understanding of e-commerce development needs.
+					</p>
+					<a href='https://github.com/dean-jeffery' className='button'>
+						Github
+					</a>
+					<a href='https://www.linkedin.com/in/dean-jeffery-08465b105' className='button'>
+						LinkedIn
+					</a>
+				</div>
+			</div>
+			<div className='column column-right'>
 				<h2>Experience</h2>
 				<div className='card'>
 					<h3>Frontend Developer</h3>
